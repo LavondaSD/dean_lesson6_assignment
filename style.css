@@ -1,0 +1,160 @@
+@charset "UTF-8";
+/* CSS Document Edited by Lavonda Dean, 04.06.19 */
+
+/* STYLE LAYUT PAGE */
+body {
+
+	font-family: Georgia, Comic Sans, sans-serif;
+	font-size: 14px;
+	line-height: 1.4em;
+	color: #242424;
+	background-color: #242424;
+	padding: 0;
+	text-align: center;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: .07em;
+	color: #FFFFFE;
+	padding: 0;
+}
+h1 {
+	font-size: 35px;
+	padding: 0;
+	font-variant: small-caps;
+	letter-spacing: .7em;
+	line-height: 2em;
+	margin: 0;
+	text-align: center;
+	color: #0E7C8F;
+}
+h2 {
+	font-size: 22px;
+	padding: 0px;
+	font-variant: small-caps;
+	letter-spacing: 0.5em;
+	text-align: center;
+	color: #D6C432;
+
+}
+h3 {
+	font-size: 22px;
+	letter-spacing: 0.5em;
+	border-bottom-width: .7px;
+	border-bottom-style: inset;
+	border-bottom-color: #9B9744;
+	padding: 0px;
+	font-variant: small-caps;
+	text-align: center;
+	color: #0E7C8F;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #D6C432;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #0E7C8F;
+	text-decoration: none;
+}
+a:hover {
+	color: #D6C432;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 10px;
+}
+ol {
+	margin-left: 10px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #D6C432 1px;
+}
+td {
+	padding: 7px;
+	border: solid #D6C432 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #ffffff;
+	text-align: center;
+	color: #242424;
+	padding: 7px;
+	border: solid #D6C432 .5px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #D6C432 1.1px;
+}
+
+img {
+	border: solid #D6C432 1.2px;
+}
+iframe {
+	border: solid #D6C432 2px;
+	padding: 4px;
+	margin: 4px;
+}
+/* DIV STYLES FOR PAGE LAYOUT */
+
+#container {
+	width: 945px;
+	margin: 0 auto;
+	padding-left: 187px;
+	border: 0px solid #D6C432;
+	background-color: #0E7C8F;
+	overflow: hidden;
+	text-align: center;
+}
+/* Edit header setting to include navbar specifications */
+#header {
+	width: 80%;
+	background-color: #0E7C8F;
+	border-bottom: solid #D6C432 2px;
+	padding: 0;
+	text-align: center;	
+	margin: 0;
+}
+/*#header h3{
+	margin: 0;
+	padding: 0;
+}*/
+#content {
+	width: 600px;
+	float: left;
+	background-color: #0E7C8F ;
+	padding: 5px 5px 5px 5px;
+}
+/* SIDEBAR SETTINGS */
+#sidebar {
+	width: 250px;
+	float: right;
+	
+	
+}
+#sidebar p {
+	width: 150px;
+	background: #242424;
+	border: 1px solid #D6C432;
+	border-radius: 2px;
+	box-shadow: 2px 2px 1px #000;
+}
+#footer {
+	width: 600px;
+	border-top: 0;
+	clear: both;
+	margin: 0 ;
+}
+#footer p{
+	margin: 0;
+	padding-left: 0;
+}
